@@ -10,7 +10,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className="contact-me">
+    <section className="contact-me" id='contact'>
       <div className='upperborder5'>
         <div className='windowIcons5'>
           <FontAwesomeIcon icon={faWindowMinimize} />
