@@ -1,0 +1,26 @@
+nav {
+  background: #9E9CED;
+  padding: 10px;
+  border: 5px solid  #392242;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+a:hover {
+  color: #557ECB;
+  transition: 0.3s ease;
+}
