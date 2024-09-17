@@ -4,7 +4,7 @@
   justify-content: center;
 }
 #stack {
-  margin: 50px 50px;
+  margin: 50px 10px;
   background-color: #fff;
   width: fit-content;
   border: 5px solid #392242;
@@ -47,17 +47,47 @@
 }
 
 em {
-  color: #518BF0;
+  color: #518cf0;
 }
 
 .stackDesc {
+  display: flex;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
+  color: #557ECB;
+  gap: 10px;
 }
 img {
-  width: 10px;
-  height: 10px;
+  width: 40px;
+  height: 40px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: #FFA0DD;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%; /* Ajusta la posición del tooltip */
+  left: 50%;
+  margin-left: -30px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }

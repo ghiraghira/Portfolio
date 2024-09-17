@@ -1,7 +1,22 @@
 import React, { useEffect, useState } from 'react';
-import './Stack.css'
+import './Stack.css';
+import exjs from './express.png';
+import ang from './angularjs.png';
+import canva from './canva.png';
+import docker from './docker2.png';
+import figma from './figma.png';
+import github from './github.png';
+import illust from './illustrator.png';
+import jira from './jira.png';
+import mongo from './mongodb.png';
+import next from './next.png';
+import postg from './postgresql.png';
+import postm from './postman.png';
+import sass from './sass.png';
+import typescript from './typescript.png';
+import vscode from './visualstudiocode.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faBootstrap, faPython} from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faBootstrap, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faSquareXmark, faWindowMaximize, faWindowMinimize } from '@fortawesome/free-solid-svg-icons';
 
 const Stack = () => {
@@ -29,49 +44,130 @@ const Stack = () => {
 
   return (
     <div className='stackSection'>
-    <section id="stack" className={isVisible ? 'visible' : ''}>
-      <div className='upperborder3'>
-        <div className='windowIcons3'>
-          <FontAwesomeIcon icon={faWindowMinimize} />
-          <FontAwesomeIcon icon={faWindowMaximize} />
-          <FontAwesomeIcon icon={faSquareXmark} />
+      <section id="stack" className={isVisible ? 'visible' : ''}>
+        <div className='upperborder3'>
+          <div className='windowIcons3'>
+            <FontAwesomeIcon icon={faWindowMinimize} />
+            <FontAwesomeIcon icon={faWindowMaximize} />
+            <FontAwesomeIcon icon={faSquareXmark} />
+          </div>
         </div>
-      </div>
-      <h2 className='stackTitle'><em>Stack Actual:</em></h2>
-      <p className='stackDesc'>
-        <FontAwesomeIcon icon={faHtml5} />
-        <FontAwesomeIcon icon={faCss3Alt} />
-        <FontAwesomeIcon icon={faJs} />
-        <FontAwesomeIcon icon={faReact} />
-        <FontAwesomeIcon icon={faNodeJs} />
-        <FontAwesomeIcon icon={faBootstrap} />
-          
-      </p>
-    </section>
-    <section id="stack" className={isVisible ? 'visible' : ''}>
-      <div className='upperborder3'>
-        <div className='windowIcons3'>
-          <FontAwesomeIcon icon={faWindowMinimize} />
-          <FontAwesomeIcon icon={faWindowMaximize} />
-          <FontAwesomeIcon icon={faSquareXmark} />
+        <h2 className='stackTitle'><em>Stack Actual:</em></h2>
+        <p className='stackDesc'>
+          <span className='tooltip'>
+            <FontAwesomeIcon icon={faHtml5} />
+            <span className='tooltiptext'>HTML5</span>
+          </span>
+          <span className='tooltip'>
+            <FontAwesomeIcon icon={faCss3Alt} />
+            <span className='tooltiptext'>CSS3</span>
+          </span>
+          <span className='tooltip'>
+            <FontAwesomeIcon icon={faJs} />
+            <span className='tooltiptext'>JavaScript</span>
+          </span>
+          <span className='tooltip'>
+            <FontAwesomeIcon icon={faReact} />
+            <span className='tooltiptext'>React</span>
+          </span>
+          <span className='tooltip'>
+            <FontAwesomeIcon icon={faNodeJs} />
+            <span className='tooltiptext'>Node.js</span>
+          </span>
+          <span className='tooltip'>
+            <img src={exjs} alt='Express.js' />
+            <span className='tooltiptext'>Express.js</span>
+          </span>
+          <span className='tooltip'>
+            <FontAwesomeIcon icon={faBootstrap} />
+            <span className='tooltiptext'>Bootstrap</span>
+          </span>
+        </p>
+      </section>
+      <section id="stack" className={isVisible ? 'visible' : ''}>
+        <div className='upperborder3'>
+          <div className='windowIcons3'>
+            <FontAwesomeIcon icon={faWindowMinimize} />
+            <FontAwesomeIcon icon={faWindowMaximize} />
+            <FontAwesomeIcon icon={faSquareXmark} />
+          </div>
         </div>
-      </div>
-      <h2 className='stackTitle'><em>Aprendiendo:</em></h2>
-      <p className='stackDesc'>
-        <FontAwesomeIcon icon={faPython} />
-      </p>
-    </section>
-    <section id="stack" className={isVisible ? 'visible' : ''}>
-      <div className='upperborder3'>
-        <div className='windowIcons3'>
-          <FontAwesomeIcon icon={faWindowMinimize} />
-          <FontAwesomeIcon icon={faWindowMaximize} />
-          <FontAwesomeIcon icon={faSquareXmark} />
+        <h2 className='stackTitle'><em>Aprendiendo:</em></h2>
+        <p className='stackDesc'>
+          <span className='tooltip'>
+            <FontAwesomeIcon icon={faPython} />
+            <span className='tooltiptext'>Python</span>
+          </span>
+          <span className='tooltip'>
+            <img src={ang} alt='AngularJS' />
+            <span className='tooltiptext'>AngularJS</span>
+          </span>
+          <span className='tooltip'>
+            <img src={next} alt='Next.js' />
+            <span className='tooltiptext'>Next.js</span>
+          </span>
+          <span className='tooltip'>
+            <img src={typescript} alt='TypeScript' />
+            <span className='tooltiptext'>TypeScript</span>
+          </span>
+          <span className='tooltip'>
+            <img src={sass} alt='Sass' />
+            <span className='tooltiptext'>Sass</span>
+          </span>
+          <span className='tooltip'>
+            <img src={mongo} alt='MongoDB' />
+            <span className='tooltiptext'>MongoDB</span>
+          </span>
+          <span className='tooltip'>
+            <img src={postg} alt='PostgreSQL' />
+            <span className='tooltiptext'>PostgreSQL</span>
+          </span>
+          <span className='tooltip'>
+            <img src={postm} alt='Postman' />
+            <span className='tooltiptext'>Postman</span>
+          </span>
+          <span className='tooltip'>
+            <img src={docker} alt='Docker' />
+            <span className='tooltiptext'>Docker</span>
+          </span>
+        </p>
+      </section>
+      <section id="stack" className={isVisible ? 'visible' : ''}>
+        <div className='upperborder3'>
+          <div className='windowIcons3'>
+            <FontAwesomeIcon icon={faWindowMinimize} />
+            <FontAwesomeIcon icon={faWindowMaximize} />
+            <FontAwesomeIcon icon={faSquareXmark} />
+          </div>
         </div>
-      </div>
-      <h2 className='stackTitle'><em>Otras tecnologías</em></h2>
-      <p className='stackDesc'>stack</p>
-    </section>
+        <h2 className='stackTitle'><em>Otros:</em></h2>
+        <p className='stackDesc'>
+          <span className='tooltip'>
+            <img src={vscode} alt='Visual Studio Code' />
+            <span className='tooltiptext'>VSCode</span>
+          </span>
+          <span className='tooltip'>
+            <img src={github} alt='GitHub' />
+            <span className='tooltiptext'>GitHub</span>
+          </span>
+          <span className='tooltip'>
+            <img src={jira} alt='Jira' />
+            <span className='tooltiptext'>Jira</span>
+          </span>
+          <span className='tooltip'>
+            <img src={figma} alt='Figma' />
+            <span className='tooltiptext'>Figma</span>
+          </span>
+          <span className='tooltip'>
+            <img src={illust} alt='Illustrator' />
+            <span className='tooltiptext'>Illustrator</span>
+          </span>
+          <span className='tooltip'>
+            <img src={canva} alt='Canva' />
+            <span className='tooltiptext'>Canva</span>
+          </span>
+        </p>
+      </section>
     </div>
   );
 };

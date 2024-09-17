@@ -35,7 +35,7 @@ const Home = () => {
           <FontAwesomeIcon icon={faSquareXmark} />
         </div>
       </div>
-      <h1 className='homeTitle'>Soy <em>Ghira!</em></h1>
+      <h1 className='homeTitle'>¡Soy <em>Ghira!</em></h1>
       <p className='homeDesc'>Desarrollador <em>Fullstack</em> y traductor <em>freelancer</em></p>
     </section>
   );

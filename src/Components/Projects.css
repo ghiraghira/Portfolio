@@ -1,0 +1,125 @@
+#projects {
+  padding: 20px;
+  margin: 20px 0;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projectSearch {
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  width: fit-content;
+  height: fit-content;
+}
+#searchIcon {
+  background-color: #C1A5ED;
+  border-top: 5px solid #392242;
+  border-left: 5px solid #392242;
+  border-bottom: 5px solid #392242;
+  border-radius: 20px 0 0 20px;
+  padding: 5px 10px;
+  color: #ffffff;
+  box-shadow: -5px 5px 0 0 rgb(85, 126, 203, 0.5);
+  margin-left: 5px;
+}
+#searchPrompt {
+  background-color: #ffffff;
+  border: 5px solid #392242;
+  border-radius: 0 20px 20px 0;
+  padding: 5px 50px;
+  color: #a081d3;
+  box-shadow: 0 5px 0 0 rgb(85, 126, 203, 0.5);
+}
+.project {
+  border: 1px solid #ddd;
+  padding: 0;
+  margin: 10px;
+  /*flex: 1 1 calc(33% - 20px);*/
+  background-color: #fff;
+  width: fit-content;
+  border: 5px solid #392242;
+  border-radius: 20px;
+  box-shadow: -5px 5px 0 0 rgb(85, 126, 203, 0.5);
+}
+
+.projectImg {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 5px -5px 0 0 rgba(124, 27, 180, 0.5);
+}
+.upperborder4 {
+  background-color: #C1A5ED;
+  width: auto;
+  height: 45px;
+  border-bottom: 5px solid #392242;
+  border-radius: 15px 15px 0 0;
+}
+
+.windowIcons4 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 14px;
+  gap: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.projectLink, .projectImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.projectImage {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.projectTitle {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+i {
+  color: #a081d3;
+}
+
+.projectDesc {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.projectInfo {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.projectLink {
+  background-color: #C1A5ED;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  width: fit-content;
+  margin-bottom: 20px;
+  border: 3px solid #392242;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.projectLink:hover {
+  background-color: #FF72BA;
+  color: #fff;
+}
