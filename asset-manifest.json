@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2bc2fa5c.css",
+    "main.js": "/Portfolio/static/js/main.3e163ff4.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/pudupi.gif": "/Portfolio/static/media/pudupi.931e38976af61dba0372.gif",
+    "static/media/pokegif.gif": "/Portfolio/static/media/pokegif.d4e97fb25ffd885a48eb.gif",
+    "static/media/tictac.gif": "/Portfolio/static/media/tictac.91c73c06ba7964335d88.gif",
+    "static/media/rgbs.gif": "/Portfolio/static/media/rgbs.6f38c3e946861a82bafc.gif",
+    "static/media/notitas.gif": "/Portfolio/static/media/notitas.457c6a59901f6475867b.gif",
+    "static/media/postgresql.png": "/Portfolio/static/media/postgresql.2933b8edb25fba5b8997.png",
+    "static/media/mongodb.png": "/Portfolio/static/media/mongodb.db44a6f640edfc17517d.png",
+    "static/media/express.png": "/Portfolio/static/media/express.8c347891e328f560ba49.png",
+    "static/media/sass.png": "/Portfolio/static/media/sass.6366176ace8661b0f687.png",
+    "static/media/canva.png": "/Portfolio/static/media/canva.fd194beca3fc0f5cc92c.png",
+    "static/media/postman.png": "/Portfolio/static/media/postman.1f4b2d8ad412385a6517.png",
+    "static/media/github.png": "/Portfolio/static/media/github.d966cec8e8ca49a69e0a.png",
+    "static/media/figma.png": "/Portfolio/static/media/figma.81e097594511400623e9.png",
+    "static/media/next.png": "/Portfolio/static/media/next.f9d5d9410df766906fbc.png",
+    "static/media/Lorenzo_Guzman_Orellana_CV.pdf": "/Portfolio/static/media/Lorenzo_Guzman_Orellana_CV.d845e0f843508ca07e8f.pdf",
+    "static/media/visualstudiocode.png": "/Portfolio/static/media/visualstudiocode.77857876ac1e29c657ec.png",
+    "static/media/illustrator.png": "/Portfolio/static/media/illustrator.3127f2373e9397072edc.png",
+    "static/media/angularjs.png": "/Portfolio/static/media/angularjs.a2a082687eba723e387c.png",
+    "static/media/jira.png": "/Portfolio/static/media/jira.2deeb604babd08d4575f.png",
+    "static/media/docker2.png": "/Portfolio/static/media/docker2.fc5b49e3c707dac0631c.png",
+    "static/media/typescript.png": "/Portfolio/static/media/typescript.1a0aca7f643490f7460b.png",
+    "index.html": "/Portfolio/index.html",
+    "main.2bc2fa5c.css.map": "/Portfolio/static/css/main.2bc2fa5c.css.map",
+    "main.3e163ff4.js.map": "/Portfolio/static/js/main.3e163ff4.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc2fa5c.css",
+    "static/js/main.3e163ff4.js"
+  ]
+}
