@@ -92,3 +92,104 @@ em {
   color: #fff;
   transition: 0.3s ease;
 }
+
+
+@media (max-width: 1200px) {
+  .contact-me {
+    max-width: 40vh;
+  }
+  .contactTitle {
+    font-size: 32px; /* Ajusta el tamaño de la fuente del título */
+  }
+
+  .contactDesc {
+    font-size: 20px; /* Ajusta el tamaño de la fuente de la descripción */
+  }
+
+  #linked, #ghub, #mail {
+    font-size: 24px; /* Ajusta el tamaño de la fuente de los enlaces */
+    padding: 5px 15px; /* Ajusta el padding para que se ajuste mejor */
+  }
+
+  .cvButton {
+    font-size: 24px; /* Ajusta el tamaño de la fuente del botón */
+    padding: 5px 15px; /* Ajusta el padding del botón */
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-me {
+    margin-top: 80px; /* Ajusta el margen superior */
+    margin-bottom: 100px; /* Ajusta el margen inferior */
+    width: 90%; /* Hace que el contenedor ocupe el 90% del ancho */
+  }
+
+  .contactTitle {
+    font-size: 28px; /* Reduce el tamaño de la fuente del título */
+  }
+
+  .contactDesc {
+    font-size: 18px; /* Reduce el tamaño de la fuente de la descripción */
+  }
+
+  #linked, #ghub, #mail {
+    font-size: 20px; /* Reduce el tamaño de la fuente de los enlaces */
+    padding: 5px 10px; /* Ajusta el padding para pantallas más pequeñas */
+  }
+
+  .cvButton {
+    font-size: 20px; /* Reduce el tamaño de la fuente del botón */
+    padding: 5px 10px; /* Ajusta el padding del botón */
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-me {
+    margin-top: 60px; /* Ajusta el margen superior */
+    margin-bottom: 80px; /* Ajusta el margen inferior */
+    width: 100%; /* Hace que el contenedor ocupe el 100% del ancho */
+  }
+
+  .contactTitle {
+    font-size: 24px; /* Reduce aún más el tamaño de la fuente del título */
+  }
+
+  .contactDesc {
+    font-size: 16px; /* Reduce aún más el tamaño de la fuente de la descripción */
+  }
+
+  #linked, #ghub, #mail {
+    font-size: 18px; /* Reduce el tamaño de la fuente de los enlaces */
+    padding: 5px 5px; /* Ajusta el padding para pantallas más pequeñas */
+  }
+
+  .cvButton {
+    font-size: 18px; /* Reduce el tamaño de la fuente del botón */
+    padding: 5px 5px; /* Ajusta el padding del botón */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-me {
+    margin-top: 40px; /* Ajusta el margen superior */
+    margin-bottom: 60px; /* Ajusta el margen inferior */
+  }
+
+  .contactTitle {
+    font-size: 20px; /* Reduce el tamaño de la fuente del título para pantallas muy pequeñas */
+  }
+
+  .contactDesc {
+    font-size: 14px; /* Reduce el tamaño de la fuente de la descripción para pantallas muy pequeñas */
+  }
+
+  #linked, #ghub, #mail {
+    font-size: 16px; /* Reduce el tamaño de la fuente de los enlaces */
+    padding: 5px 5px; /* Ajusta el padding para pantallas muy pequeñas */
+  }
+
+  .cvButton {
+    font-size: 16px; /* Reduce el tamaño de la fuente del botón */
+    padding: 5px 5px; /* Ajusta el padding del botón */
+  }
+}

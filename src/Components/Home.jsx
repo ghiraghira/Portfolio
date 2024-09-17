@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
       <h1 className='homeTitle'>¡Soy <em>Ghira!</em></h1>
-      <p className='homeDesc'>Desarrollador <em>Fullstack</em> y traductor <em>freelancer</em></p>
+      <p className='homeDesc'>Desarrollador <em>Fullstack</em> en formación</p>
     </section>
   );
 };

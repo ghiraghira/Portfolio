@@ -55,3 +55,83 @@ em {
   font-size: 24px;
   font-weight: 700;
 }
+
+
+@media (max-width: 1200px) {
+  #about {
+    margin-left: 200px; /* Ajusta el margen izquierdo */
+    margin-right: 200px; /* Ajusta el margen derecho */
+    margin-top: 10px;
+    max-width: 40vh;
+  }
+
+  .aboutTitle {
+    font-size: 32px; /* Ajusta el tamaño de la fuente del título */
+  }
+
+  .aboutDesc {
+    font-size: 20px; /* Ajusta el tamaño de la fuente de la descripción */
+  }
+}
+
+@media (max-width: 992px) {
+  #about {
+    margin-left: 150px; /* Reduce el margen izquierdo */
+    margin-right: 150px; /* Reduce el margen derecho */
+  }
+
+  .aboutTitle {
+    font-size: 28px; /* Reduce el tamaño de la fuente del título */
+  }
+
+  .aboutDesc {
+    font-size: 18px; /* Reduce el tamaño de la fuente de la descripción */
+  }
+
+  .windowIcons2 {
+    font-size: 18px; /* Ajusta el tamaño de los íconos de ventana */
+    gap: 10px; /* Reduce el espacio entre íconos */
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+    margin-left: 50px; /* Reduce aún más el margen izquierdo */
+    margin-right: 50px; /* Reduce aún más el margen derecho */
+    width: 100%; /* Hace que el contenedor ocupe el ancho completo */
+    box-shadow: none; /* Elimina la sombra para pantallas móviles */
+  }
+
+  .aboutTitle {
+    font-size: 24px; /* Ajusta el tamaño de la fuente del título para pantallas móviles */
+  }
+
+  .aboutDesc {
+    font-size: 16px; /* Ajusta el tamaño de la fuente de la descripción para pantallas móviles */
+  }
+
+  .windowIcons2 {
+    font-size: 16px; /* Ajusta el tamaño de los íconos de ventana */
+    gap: 8px; /* Reduce el espacio entre íconos */
+  }
+}
+
+@media (max-width: 480px) {
+  #about {
+    margin-left: 10px; /* Ajusta los márgenes para pantallas muy pequeñas */
+    margin-right: 10px; /* Ajusta los márgenes para pantallas muy pequeñas */
+  }
+
+  .aboutTitle {
+    font-size: 20px; /* Ajusta el tamaño de la fuente del título para pantallas muy pequeñas */
+  }
+
+  .aboutDesc {
+    font-size: 14px; /* Ajusta el tamaño de la fuente de la descripción para pantallas muy pequeñas */
+  }
+
+  .windowIcons2 {
+    font-size: 14px; /* Ajusta el tamaño de los íconos de ventana */
+    gap: 5px; /* Reduce el espacio entre íconos */
+  }
+}

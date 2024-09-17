@@ -123,3 +123,105 @@ i {
   background-color: #FF72BA;
   color: #fff;
 }
+
+
+@media (max-width: 1200px) {
+  .projectSearch {
+    font-size: 36px; /* Reduce el tamaño de la fuente del buscador */
+  }
+
+  .project {
+    margin: 10px; /* Ajusta los márgenes para pantallas más pequeñas */
+  }
+
+  .projectImg {
+    width: 300px; /* Reduce el tamaño de la imagen del proyecto */
+  }
+
+  .projectTitle {
+    font-size: 28px; /* Ajusta el tamaño de la fuente del título del proyecto */
+  }
+
+  .projectDesc, .projectInfo {
+    font-size: 18px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+  }
+}
+
+@media (max-width: 992px) {
+  .projectSearch {
+    font-size: 32px; /* Reduce aún más el tamaño de la fuente del buscador */
+  }
+
+  .project {
+    margin: 10px; /* Ajusta los márgenes */
+    width: calc(50% - 20px); /* Ajusta el ancho del proyecto para pantallas más pequeñas */
+  }
+
+  .projectImg {
+    width: 250px; /* Reduce aún más el tamaño de la imagen del proyecto */
+  }
+
+  .projectTitle {
+    font-size: 24px; /* Ajusta el tamaño de la fuente del título del proyecto */
+  }
+
+  .projectDesc, .projectInfo {
+    font-size: 16px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+  }
+}
+
+@media (max-width: 768px) {
+  .projectSearch {
+    font-size: 28px; /* Reduce el tamaño de la fuente del buscador */
+  }
+
+  .project {
+    margin: 10px; /* Ajusta los márgenes */
+    width: calc(100% - 20px); /* Ajusta el ancho del proyecto para pantallas aún más pequeñas */
+  }
+
+  .projectImg {
+    width: 200px; /* Reduce el tamaño de la imagen del proyecto */
+  }
+
+  .projectTitle {
+    font-size: 20px; /* Ajusta el tamaño de la fuente del título del proyecto */
+  }
+
+  .projectDesc, .projectInfo {
+    font-size: 14px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+  }
+
+  .windowIcons4 {
+    font-size: 16px; /* Ajusta el tamaño de la fuente de los íconos de ventana */
+    gap: 10px; /* Reduce el espacio entre íconos */
+  }
+}
+
+@media (max-width: 480px) {
+  .projectSearch {
+    font-size: 24px; /* Reduce aún más el tamaño de la fuente del buscador */
+  }
+
+  .project {
+    margin: 10px; /* Ajusta los márgenes */
+    width: 100%; /* Hace que el proyecto ocupe el ancho completo */
+  }
+
+  .projectImg {
+    width: 150px; /* Reduce aún más el tamaño de la imagen del proyecto */
+  }
+
+  .projectTitle {
+    font-size: 18px; /* Ajusta el tamaño de la fuente del título del proyecto */
+  }
+
+  .projectDesc, .projectInfo {
+    font-size: 12px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+  }
+
+  .windowIcons4 {
+    font-size: 14px; /* Ajusta el tamaño de la fuente de los íconos de ventana */
+    gap: 5px; /* Reduce aún más el espacio entre íconos */
+  }
+}

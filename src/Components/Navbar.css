@@ -24,3 +24,42 @@ a:hover {
   color: #557ECB;
   transition: 0.3s ease;
 }
+
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Cambia la dirección de flex a columna para pantallas pequeñas */
+    align-items: center; /* Alinea los elementos al centro verticalmente */
+    gap: 5px;
+  }
+
+  nav ul li {
+    margin: 10px 7px; /* Ajusta el margen para elementos en columna */
+  }
+
+  nav ul li a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 5px;
+    border-width: 3px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  nav {
+    padding: 5px;
+    border-width: 3px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
+}

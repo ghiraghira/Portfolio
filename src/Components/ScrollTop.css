@@ -28,3 +28,60 @@
   background-color: #392242;
   transition: 0.3s ease;
 }
+
+
+@media (max-width: 1200px) {
+  .scroll-to-top {
+    width: 60px; /* Reduce el tamaño del botón */
+    height: 60px; /* Reduce el tamaño del botón */
+    font-size: 20px; /* Reduce el tamaño del texto */
+    bottom: 15px; /* Ajusta la posición desde el fondo */
+    right: 15px; /* Ajusta la posición desde el lado derecho */
+  }
+
+  #upButton {
+    font-size: 40px; /* Reduce el tamaño del icono */
+  }
+}
+
+@media (max-width: 992px) {
+  .scroll-to-top {
+    width: 50px; /* Reduce aún más el tamaño del botón */
+    height: 50px; /* Reduce aún más el tamaño del botón */
+    font-size: 18px; /* Reduce el tamaño del texto */
+    bottom: 10px; /* Ajusta la posición desde el fondo */
+    right: 10px; /* Ajusta la posición desde el lado derecho */
+  }
+
+  #upButton {
+    font-size: 32px; /* Reduce el tamaño del icono */
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-to-top {
+    width: 45px; /* Reduce aún más el tamaño del botón */
+    height: 45px; /* Reduce aún más el tamaño del botón */
+    font-size: 16px; /* Reduce el tamaño del texto */
+    bottom: 5px; /* Ajusta la posición desde el fondo */
+    right: 5px; /* Ajusta la posición desde el lado derecho */
+  }
+
+  #upButton {
+    font-size: 28px; /* Reduce el tamaño del icono */
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-to-top {
+    width: 40px; /* Reduce el tamaño del botón para pantallas muy pequeñas */
+    height: 40px; /* Reduce el tamaño del botón para pantallas muy pequeñas */
+    font-size: 14px; /* Reduce el tamaño del texto para pantallas muy pequeñas */
+    bottom: 10px; /* Ajusta la posición desde el fondo */
+    right: 10px; /* Ajusta la posición desde el lado derecho */
+  }
+
+  #upButton {
+    font-size: 24px; /* Reduce el tamaño del icono para pantallas muy pequeñas */
+  }
+}
