@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css'; // Puedes añadir estilos personalizados aquí
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareXmark, faWindowMaximize, faWindowMinimize } from '@fortawesome/free-solid-svg-icons';
-import CV_LIGO from './Lorenzo_Guzman_Orellana_CV.pdf';
+import CV_LIGO from './CV_Lorenzo_Guzman_Orellana.pdf';
 
 const ContactMe = () => {
   const handleDownload = () => {
@@ -10,7 +10,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className="contact-me">
+    <section className="contact-me" id='contact'>
       <div className='upperborder5'>
         <div className='windowIcons5'>
           <FontAwesomeIcon icon={faWindowMinimize} />
