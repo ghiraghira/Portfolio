@@ -11,7 +11,7 @@ import jira from './jira.png';
 import mongo from './mongodb.png';
 import next from './next.png';
 import postg from './postgresql.png';
-import postm from './postman.png';
+import golang from './golang.png';
 import sass from './sass.png';
 import typescript from './typescript.png';
 import vscode from './visualstudiocode.png';
@@ -123,8 +123,8 @@ const Stack = () => {
             <span className='tooltiptext'>PostgreSQL</span>
           </span>
           <span className='tooltip'>
-            <img src={postm} alt='Postman' />
-            <span className='tooltiptext'>Postman</span>
+            <img src={golang} alt='GoLang' />
+            <span className='tooltiptext'>Golang</span>
           </span>
           <span className='tooltip'>
             <img src={docker} alt='Docker' />
