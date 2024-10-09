@@ -5,10 +5,12 @@ import notes from './notitas.gif'
 import rgbgen from './rgbs.gif'
 import tictac from './tictac.gif'
 import pudu from './pudupi.gif'
+import shimi from './shimigifsite.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faSquareXmark, faWindowMaximize, faWindowMinimize} from '@fortawesome/free-solid-svg-icons';
 
 const projects = [
+  { id: 6, title: 'Fushimi Gaku Fansite', image: shimi, description: 'Hecho con JavaScript, React y CSS', link: 'https://fushimigakuensite.vercel.app/' },
   { id: 1, title: 'PokéSearch', image: poke, description: 'Hecho con JavaScript, React y CSS', link: 'https://ghiraghira.github.io/PokeSearch/' },
   { id: 2, title: 'Notes App', image: notes, description: 'Hecho con JavaScript, React y CSS', info: 'Hecho en React', link: 'https://ghiraghira.github.io/ShortNotes/' },
   { id: 3, title: 'RGB Generator', image: rgbgen, description: 'Hecho con JavaScript, React y CSS', info: 'Hecho en React', link: 'https://ghiraghira.github.io/RGBGenerator/' },
