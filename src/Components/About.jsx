@@ -37,7 +37,7 @@ const About = () => {
       </div>
       <h2 className='aboutTitle'><em>Sobre mí</em></h2>
       <p className='aboutDesc'>Estudiando <em>inglés</em> y <em>japonés</em> de manera 
-      autodidacta a través de los años, mi acercamiento a la <em>tecnología</em> 
+      autodidacta a través de los años, mi acercamiento a la <em>tecnología</em>&nbsp; 
        nace de la <em>similitud</em> existente entre el aprendizaje de idiomas y 
       el de lenguajes de programación. En donde la <em>colaboración</em> de ambos de 
       estos conocimientos me permiten expandir mi perspectiva y posibilitan el acceso 
