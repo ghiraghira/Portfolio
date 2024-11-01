@@ -80,7 +80,7 @@ img {
   padding: 5px 5px;
   position: absolute;
   z-index: 1;
-  bottom: 110%; /* Ajusta la posición del tooltip */
+  bottom: 110%;
   left: 50%;
   margin-left: -30px;
   opacity: 0;
@@ -101,96 +101,96 @@ img {
     margin: 0 50px;
   }
   .stackTitle {
-    font-size: 32px; /* Reduce el tamaño de la fuente del título */
+    font-size: 32px;
   }
 
   .stackDesc {
-    font-size: 36px; /* Reduce el tamaño de la fuente de la descripción */
-    gap: 8px; /* Reduce el espacio entre los elementos en la descripción */
+    font-size: 36px;
+    gap: 8px;
   }
 
   img {
-    width: 35px; /* Reduce el tamaño de las imágenes */
-    height: 35px; /* Reduce el tamaño de las imágenes */
+    width: 35px;
+    height: 35px;
   }
 
   .tooltip .tooltiptext {
-    font-size: 14px; /* Reduce el tamaño de la fuente del tooltip */
-    padding: 4px 4px; /* Ajusta el padding del tooltip */
-    margin-left: -25px; /* Ajusta el margen izquierdo del tooltip */
+    font-size: 14px;
+    padding: 4px 4px;
+    margin-left: -25px;
   }
 }
 
 @media (max-width: 992px) {
   .stackTitle {
-    font-size: 28px; /* Reduce aún más el tamaño de la fuente del título */
+    font-size: 28px;
   }
 
   .stackDesc {
-    font-size: 30px; /* Reduce aún más el tamaño de la fuente de la descripción */
-    gap: 6px; /* Reduce el espacio entre los elementos en la descripción */
+    font-size: 30px;
+    gap: 6px;
   }
 
   img {
-    width: 30px; /* Reduce el tamaño de las imágenes */
-    height: 30px; /* Reduce el tamaño de las imágenes */
+    width: 30px;
+    height: 30px;
   }
 
   .tooltip .tooltiptext {
-    font-size: 12px; /* Reduce el tamaño de la fuente del tooltip */
-    padding: 3px 3px; /* Ajusta el padding del tooltip */
-    margin-left: -20px; /* Ajusta el margen izquierdo del tooltip */
+    font-size: 12px;
+    padding: 3px 3px;
+    margin-left: -20px;
   }
 }
 
 @media (max-width: 768px) {
   #stack {
-    margin: 30px 5px; /* Ajusta el margen del contenedor en pantallas más pequeñas */
+    margin: 30px 5px;
   }
 
   .stackTitle {
-    font-size: 24px; /* Reduce el tamaño de la fuente del título */
+    font-size: 24px;
   }
 
   .stackDesc {
-    font-size: 24px; /* Reduce el tamaño de la fuente de la descripción */
-    gap: 4px; /* Reduce el espacio entre los elementos en la descripción */
+    font-size: 24px;
+    gap: 4px;
   }
 
   img {
-    width: 25px; /* Reduce el tamaño de las imágenes */
-    height: 25px; /* Reduce el tamaño de las imágenes */
+    width: 25px;
+    height: 25px;
   }
 
   .tooltip .tooltiptext {
-    font-size: 10px; /* Reduce el tamaño de la fuente del tooltip */
-    padding: 2px 2px; /* Ajusta el padding del tooltip */
-    margin-left: -15px; /* Ajusta el margen izquierdo del tooltip */
+    font-size: 10px;
+    padding: 2px 2px;
+    margin-left: -15px;
   }
 }
 
 @media (max-width: 480px) {
   #stack {
-    margin: 20px 2px; /* Ajusta el margen del contenedor en pantallas muy pequeñas */
+    margin: 20px 2px;
   }
 
   .stackTitle {
-    font-size: 20px; /* Reduce el tamaño de la fuente del título */
+    font-size: 20px;
   }
 
   .stackDesc {
-    font-size: 20px; /* Reduce el tamaño de la fuente de la descripción */
-    gap: 2px; /* Reduce el espacio entre los elementos en la descripción */
+    font-size: 20px;
+    gap: 2px;
   }
 
   img {
-    width: 20px; /* Reduce el tamaño de las imágenes */
-    height: 20px; /* Reduce el tamaño de las imágenes */
+    width: 20px;
+    height: 20px;
   }
 
   .tooltip .tooltiptext {
-    font-size: 8px; /* Reduce el tamaño de la fuente del tooltip */
-    padding: 1px 1px; /* Ajusta el padding del tooltip */
-    margin-left: -10px; /* Ajusta el margen izquierdo del tooltip */
+    font-size: 8px;
+    padding: 1px 1px;
+    margin-left: -10px;
   }
 }

@@ -56,73 +56,73 @@ em {
 
 @media (max-width: 1200px) {
   #home {
-    margin: 100px 50px; /* Ajusta los márgenes para pantallas más pequeñas */
+    margin: 100px 50px;
     max-width: 40vh;
   }
 
   .homeTitle {
-    font-size: 36px; /* Reduce el tamaño de la fuente del título */
+    font-size: 36px;
   }
 
   .homeDesc {
-    font-size: 20px; /* Reduce el tamaño de la fuente de la descripción */
+    font-size: 20px;
   }
 }
 
 @media (max-width: 992px) {
   #home {
-    margin: 80px 50px; /* Ajusta aún más los márgenes para pantallas más pequeñas */
+    margin: 80px 50px;
   }
 
   .homeTitle {
-    font-size: 32px; /* Reduce más el tamaño de la fuente del título */
+    font-size: 32px;
   }
 
   .homeDesc {
-    font-size: 18px; /* Reduce más el tamaño de la fuente de la descripción */
+    font-size: 18px;
   }
 
   .windowIcons {
-    font-size: 18px; /* Ajusta el tamaño de los íconos de ventana */
+    font-size: 18px;
   }
 }
 
 @media (max-width: 768px) {
   #home {
-    margin: 60px 20px; /* Reduce los márgenes para pantallas móviles */
-    width: 100%; /* Hace que el contenedor ocupe el ancho completo */
-    box-shadow: none; /* Elimina la sombra para pantallas móviles */
+    margin: 60px 20px;
+    width: 100%;
+    box-shadow: none;
   }
 
   .homeTitle {
-    font-size: 28px; /* Ajusta el tamaño de la fuente del título para pantallas móviles */
+    font-size: 28px;
   }
 
   .homeDesc {
-    font-size: 16px; /* Ajusta el tamaño de la fuente de la descripción para pantallas móviles */
+    font-size: 16px;
   }
 
   .windowIcons {
-    font-size: 16px; /* Ajusta el tamaño de los íconos de ventana */
-    gap: 10px; /* Reduce el espacio entre íconos */
+    font-size: 16px;
+    gap: 10px;
   }
 }
 
 @media (max-width: 480px) {
   #home {
-    margin: 30px 10px; /* Ajusta los márgenes para pantallas muy pequeñas */
+    margin: 30px 10px;
   }
 
   .homeTitle {
-    font-size: 24px; /* Ajusta el tamaño de la fuente del título para pantallas muy pequeñas */
+    font-size: 24px;
   }
 
   .homeDesc {
-    font-size: 14px; /* Ajusta el tamaño de la fuente de la descripción para pantallas muy pequeñas */
+    font-size: 14px;
   }
 
   .windowIcons {
-    font-size: 14px; /* Ajusta el tamaño de los íconos de ventana */
-    gap: 5px; /* Reduce aún más el espacio entre íconos */
+    font-size: 14px;
+    gap: 5px;
   }
 }

@@ -36,7 +36,7 @@
   border: 1px solid #ddd;
   padding: 0;
   margin: 10px;
-  /*flex: 1 1 calc(33% - 20px);*/
+ 
   background-color: #fff;
   width: fit-content;
   border: 5px solid #392242;
@@ -127,101 +127,101 @@ i {
 
 @media (max-width: 1200px) {
   .projectSearch {
-    font-size: 36px; /* Reduce el tamaño de la fuente del buscador */
+    font-size: 36px;
   }
 
   .project {
-    margin: 10px; /* Ajusta los márgenes para pantallas más pequeñas */
+    margin: 10px;
   }
 
   .projectImg {
-    width: 300px; /* Reduce el tamaño de la imagen del proyecto */
+    width: 300px;
   }
 
   .projectTitle {
-    font-size: 28px; /* Ajusta el tamaño de la fuente del título del proyecto */
+    font-size: 28px;
   }
 
   .projectDesc, .projectInfo {
-    font-size: 18px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+    font-size: 18px;
   }
 }
 
 @media (max-width: 992px) {
   .projectSearch {
-    font-size: 32px; /* Reduce aún más el tamaño de la fuente del buscador */
+    font-size: 32px;
   }
 
   .project {
-    margin: 10px; /* Ajusta los márgenes */
-    width: calc(50% - 20px); /* Ajusta el ancho del proyecto para pantallas más pequeñas */
+    margin: 10px;
+    width: calc(50% - 20px);
   }
 
   .projectImg {
-    width: 250px; /* Reduce aún más el tamaño de la imagen del proyecto */
+    width: 250px;
   }
 
   .projectTitle {
-    font-size: 24px; /* Ajusta el tamaño de la fuente del título del proyecto */
+    font-size: 24px;
   }
 
   .projectDesc, .projectInfo {
-    font-size: 16px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+    font-size: 16px;
   }
 }
 
 @media (max-width: 768px) {
   .projectSearch {
-    font-size: 28px; /* Reduce el tamaño de la fuente del buscador */
+    font-size: 28px;
   }
 
   .project {
-    margin: 10px; /* Ajusta los márgenes */
-    width: calc(100% - 20px); /* Ajusta el ancho del proyecto para pantallas aún más pequeñas */
+    margin: 10px;
+    width: calc(100% - 20px);
   }
 
   .projectImg {
-    width: 200px; /* Reduce el tamaño de la imagen del proyecto */
+    width: 200px;
   }
 
   .projectTitle {
-    font-size: 20px; /* Ajusta el tamaño de la fuente del título del proyecto */
+    font-size: 20px;
   }
 
   .projectDesc, .projectInfo {
-    font-size: 14px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+    font-size: 14px;
   }
 
   .windowIcons4 {
-    font-size: 16px; /* Ajusta el tamaño de la fuente de los íconos de ventana */
-    gap: 10px; /* Reduce el espacio entre íconos */
+    font-size: 16px;
+    gap: 10px;
   }
 }
 
 @media (max-width: 480px) {
   .projectSearch {
-    font-size: 24px; /* Reduce aún más el tamaño de la fuente del buscador */
+    font-size: 24px;
   }
 
   .project {
-    margin: 10px; /* Ajusta los márgenes */
-    width: 100%; /* Hace que el proyecto ocupe el ancho completo */
+    margin: 10px;
+    width: 100%;
   }
 
   .projectImg {
-    width: 150px; /* Reduce aún más el tamaño de la imagen del proyecto */
+    width: 150px;
   }
 
   .projectTitle {
-    font-size: 18px; /* Ajusta el tamaño de la fuente del título del proyecto */
+    font-size: 18px;
   }
 
   .projectDesc, .projectInfo {
-    font-size: 12px; /* Ajusta el tamaño de la fuente de la descripción y la información del proyecto */
+    font-size: 12px;
   }
 
   .windowIcons4 {
-    font-size: 14px; /* Ajusta el tamaño de la fuente de los íconos de ventana */
-    gap: 5px; /* Reduce aún más el espacio entre íconos */
+    font-size: 14px;
+    gap: 5px;
   }
 }

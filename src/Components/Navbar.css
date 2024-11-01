@@ -14,7 +14,7 @@ nav ul li {
   margin: 0 20px;
 }
 
-nav ul li a {
+nav ul li a  {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
@@ -24,17 +24,37 @@ a:hover {
   color: #557ECB;
   transition: 0.3s ease;
 }
+.wholeToggle {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+
+}
+.tlToggle {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: url('pointercursor.png'), auto;
+}
+.tlToggle:hover {
+  color: #557ECB;
+  transition: 0.3s ease;
+}
 
 
 @media (max-width: 768px) {
   nav ul {
-    flex-direction: column; /* Cambia la dirección de flex a columna para pantallas pequeñas */
-    align-items: center; /* Alinea los elementos al centro verticalmente */
+    flex-direction: column;
+    align-items: center; 
     gap: 5px;
   }
 
   nav ul li {
-    margin: 10px 7px; /* Ajusta el margen para elementos en columna */
+    margin: 10px 3px;
   }
 
   nav ul li a {
@@ -46,10 +66,17 @@ a:hover {
   nav {
     padding: 5px;
     border-width: 3px;
+    gap: 2px;
   }
 
   nav ul li a {
-    font-size: 16px;
+    font-size: 13px;
+  }
+  .wholeToggle, .tlToggle {
+    font-size: 13px;
+  }
+  .tlToggle {
+    margin-left: -3px;
   }
 }
 
@@ -57,9 +84,13 @@ a:hover {
   nav {
     padding: 5px;
     border-width: 3px;
+    gap: 2px;
   }
 
   nav ul li a {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  .tlToggle {
+    margin-left: -3px;
   }
 }

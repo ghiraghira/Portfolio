@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Stack.css';
+import { useTranslation, Trans } from 'react-i18next';
 import exjs from './express.png';
 import ang from './angularjs.png';
 import canva from './canva.png';
@@ -20,6 +21,8 @@ import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faBootstrap, faPython } fr
 import { faSquareXmark, faWindowMaximize, faWindowMinimize } from '@fortawesome/free-solid-svg-icons';
 
 const Stack = () => {
+  const { t } = useTranslation();
+
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
@@ -52,7 +55,7 @@ const Stack = () => {
             <FontAwesomeIcon icon={faSquareXmark} />
           </div>
         </div>
-        <h2 className='stackTitle'><em>Stack Actual:</em></h2>
+        <h2 className='stackTitle'><em><Trans i18nKey="description.stack">Stack Actual:</Trans></em></h2>
         <p className='stackDesc'>
           <span className='tooltip'>
             <FontAwesomeIcon icon={faHtml5} />
@@ -92,7 +95,7 @@ const Stack = () => {
             <FontAwesomeIcon icon={faSquareXmark} />
           </div>
         </div>
-        <h2 className='stackTitle'><em>Aprendiendo:</em></h2>
+        <h2 className='stackTitle'><em><Trans i18nKey="description.learn">Aprendiendo:</Trans></em></h2>
         <p className='stackDesc'>
           <span className='tooltip'>
             <FontAwesomeIcon icon={faPython} />
@@ -140,7 +143,7 @@ const Stack = () => {
             <FontAwesomeIcon icon={faSquareXmark} />
           </div>
         </div>
-        <h2 className='stackTitle'><em>Otros:</em></h2>
+        <h2 className='stackTitle'><em><Trans i18nKey="description.other">Otros:</Trans></em></h2>
         <p className='stackDesc'>
           <span className='tooltip'>
             <img src={vscode} alt='Visual Studio Code' />

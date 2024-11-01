@@ -15,39 +15,39 @@ footer {
 
 @media (max-width: 1200px) {
   .footerContent {
-    font-size: 14px; /* Reduce el tamaño de la fuente en pantallas más pequeñas */
-    margin-left: 15px; /* Ajusta el margen izquierdo para pantallas más pequeñas */
+    font-size: 14px;
+    margin-left: 15px;
   }
 }
 
 @media (max-width: 992px) {
   .footerContent {
-    font-size: 12px; /* Reduce aún más el tamaño de la fuente */
-    margin-left: 10px; /* Ajusta aún más el margen izquierdo */
+    font-size: 12px;
+    margin-left: 10px;
   }
 }
 
 @media (max-width: 768px) {
   footer {
-    padding: 8px; /* Reduce el padding para pantallas más pequeñas */
-    border-width: 3px; /* Reduce el grosor del borde */
+    padding: 8px;
+    border-width: 3px;
   }
 
   .footerContent {
-    font-size: 10px; /* Reduce el tamaño de la fuente para pantallas pequeñas */
-    margin-left: 5px; /* Ajusta el margen izquierdo para pantallas más pequeñas */
+    font-size: 10px;
+    margin-left: 5px;
   }
 }
 
 @media (max-width: 480px) {
   footer {
-    padding: 5px; /* Reduce aún más el padding para pantallas muy pequeñas */
-    border-width: 2px; /* Reduce el grosor del borde para pantallas muy pequeñas */
+    padding: 5px;
+    border-width: 2px;
   }
 
   .footerContent {
-    font-size: 8px; /* Reduce el tamaño de la fuente a un tamaño pequeño */
-    margin-left: 0; /* Elimina el margen izquierdo para pantallas muy pequeñas */
-    text-align: center; /* Centra el texto en pantallas muy pequeñas */
+    font-size: 8px;
+    margin-left: 0;
+    text-align: center;
   }
 }

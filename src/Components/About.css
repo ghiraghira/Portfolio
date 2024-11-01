@@ -59,79 +59,79 @@ em {
 
 @media (max-width: 1200px) {
   #about {
-    margin-left: 200px; /* Ajusta el margen izquierdo */
-    margin-right: 200px; /* Ajusta el margen derecho */
+    margin-left: 200px;
+    margin-right: 200px; 
     margin-top: 10px;
     max-width: 40vh;
   }
 
   .aboutTitle {
-    font-size: 32px; /* Ajusta el tamaño de la fuente del título */
+    font-size: 32px;
   }
 
   .aboutDesc {
-    font-size: 20px; /* Ajusta el tamaño de la fuente de la descripción */
+    font-size: 20px;
   }
 }
 
 @media (max-width: 992px) {
   #about {
-    margin-left: 150px; /* Reduce el margen izquierdo */
-    margin-right: 150px; /* Reduce el margen derecho */
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
   .aboutTitle {
-    font-size: 28px; /* Reduce el tamaño de la fuente del título */
+    font-size: 28px;
   }
 
   .aboutDesc {
-    font-size: 18px; /* Reduce el tamaño de la fuente de la descripción */
+    font-size: 18px;
   }
 
   .windowIcons2 {
-    font-size: 18px; /* Ajusta el tamaño de los íconos de ventana */
-    gap: 10px; /* Reduce el espacio entre íconos */
+    font-size: 18px;
+    gap: 10px;
   }
 }
 
 @media (max-width: 768px) {
   #about {
-    margin-left: 50px; /* Reduce aún más el margen izquierdo */
-    margin-right: 50px; /* Reduce aún más el margen derecho */
-    width: 100%; /* Hace que el contenedor ocupe el ancho completo */
-    box-shadow: none; /* Elimina la sombra para pantallas móviles */
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%;
+    box-shadow: none;
   }
 
   .aboutTitle {
-    font-size: 24px; /* Ajusta el tamaño de la fuente del título para pantallas móviles */
+    font-size: 24px;
   }
 
   .aboutDesc {
-    font-size: 16px; /* Ajusta el tamaño de la fuente de la descripción para pantallas móviles */
+    font-size: 16px;
   }
 
   .windowIcons2 {
-    font-size: 16px; /* Ajusta el tamaño de los íconos de ventana */
-    gap: 8px; /* Reduce el espacio entre íconos */
+    font-size: 16px;
+    gap: 8px;
   }
 }
 
 @media (max-width: 480px) {
   #about {
-    margin-left: 10px; /* Ajusta los márgenes para pantallas muy pequeñas */
-    margin-right: 10px; /* Ajusta los márgenes para pantallas muy pequeñas */
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .aboutTitle {
-    font-size: 20px; /* Ajusta el tamaño de la fuente del título para pantallas muy pequeñas */
+    font-size: 20px;
   }
 
   .aboutDesc {
-    font-size: 14px; /* Ajusta el tamaño de la fuente de la descripción para pantallas muy pequeñas */
+    font-size: 14px;
   }
 
   .windowIcons2 {
-    font-size: 14px; /* Ajusta el tamaño de los íconos de ventana */
-    gap: 5px; /* Reduce el espacio entre íconos */
+    font-size: 14px;
+    gap: 5px;
   }
 }
