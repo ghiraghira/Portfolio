@@ -59,7 +59,7 @@ i18n
             made: "Made with ",
             keep: "Let's be in contact!",
             open: "I'm available for new projects and opportunities!",
-            dl: "Download Resumé",
+            dl: "Download CV",
           }
         }
       }
